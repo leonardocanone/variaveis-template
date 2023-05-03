@@ -14,14 +14,14 @@
 
 // console.log("nome:", typeof nome, ", idade:", typeof idade, ", presença:", typeof presenca)
 
-const nomeObjeto = prompt("Digite o nome do seu objeto?")
+const nomeObjeto = prompt("Digite o nome do objeto que a professora pediu pra levar amanhã?")
 
 let tamanho = Number (prompt("Qual é o tamanho deste objeto?"))
 
-let presencaNaProva = confirm("Você vai levar este objeto na aula de amanhã?")
+let levarParaAula = confirm("Você vai levar este objeto na aula de amanhã?")
 
-console.log("nomeObjeto:", typeof nomeObjeto, ", tamanho:", typeof tamanho, ", presencanNaProva:", typeof presencaNaProva)
+console.log("nomeObjeto:", typeof nomeObjeto, ", tamanho:", typeof tamanho, ", levarParaAula:", typeof levarParaAula)
 
-console.log("Favor levarem uma", nomeObjeto, "de", tamanho, "cm na aula de amanhã")
+console.log("É verdade que precisamos levar uma", nomeObjeto, "de", tamanho, "cm na aula de amanhã? Resposta:", levarParaAula)
 
 
